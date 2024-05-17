@@ -33,7 +33,7 @@ body {
     align-items: center;
     max-width: 1240px;
     width: 100%;
-    margin: 0;
+    margin: 0;  
 }
 
 .botao {
@@ -61,7 +61,7 @@ body {
     display: block;
 }
 
-.ativo {
+.botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: var(--verde);
 }
@@ -69,7 +69,7 @@ body {
 .abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
-    border-radius: 0 0 40px 40px;
+    border-radius: 0 0 40px 40px;   
 }
 
 .aba-conteudo.ativo {
@@ -83,6 +83,7 @@ body {
 .aba-conteudo-titulo-principal {
     font-size: 28px;
     text-align: center;
+   
 }
 
 .aba-conteudo-titulo-secundario {
